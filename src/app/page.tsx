@@ -1,7 +1,19 @@
+import NavBar from "./components/NavBar";
+
 export default function Home() {
   return (
     <div>
-      <h1 className="">Initial Commit</h1>
+      <header>
+        <NavBar />
+      </header>
+
+      {/* Header */}
+      {/* Hero */}
+      {/* About */}
+      {/* Experience */}
+      {/* Skills */}
+      {/* Projects */}
+      {/* Contact Me */}
     </div>
   );
 }
