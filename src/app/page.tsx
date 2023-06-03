@@ -12,9 +12,9 @@ export default function Home() {
       className="relative mx-auto h-[100vh] overflow-x-hidden 
     overflow-y-auto snap-y snap-mandatory transition-all"
     >
-      <header className="sticky top-0 w-full z-[1000]">
+      {/* <header className="sticky top-0 w-full z-[1000]">
         <NavBar />
-      </header>
+      </header> */}
       <Section className="" id="hero">
         <HeroSection />
       </Section>
@@ -25,7 +25,7 @@ export default function Home() {
       <Section className="" id="skills">
         <Skills />
       </Section>
-      <Section className="bg-green-800" id="experience">
+      <Section className="" id="experience">
         <Experience />
       </Section>
     </div>

@@ -4,7 +4,9 @@ type Props = {
 
 const MaxWidth = ({ children }: Props) => {
   return (
-    <div className="relative max-w-[90rem] mx-auto grow h-full">{children}</div>
+    <div className="relative max-w-[90rem] w-full mx-auto grow h-full">
+      {children}
+    </div>
   );
 };
 
