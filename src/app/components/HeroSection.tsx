@@ -15,7 +15,7 @@ const HeroSection = () => {
           width={250}
           height={250}
           alt=""
-          className="relative rounded-full w-[20rem] aspect-square"
+          className="relative rounded-full w-[15rem] aspect-square"
         />
       </div>
       <HeroTitle />
