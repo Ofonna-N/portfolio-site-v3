@@ -7,7 +7,7 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
-    title: "Game Developer",
+    title: "Game Developer, Founder",
     company: "Smally Games",
     date: "September 2018 - August 2022",
     responsibilities: [
@@ -37,6 +37,26 @@ const experiences: Experience[] = [
       "Reported progress and resolved problems to keep projects on schedule and within budget parameters.",
     ],
   },
+  {
+    title: "Game Programmer",
+    company: "ketchap,",
+    date: "February 2021-March 2021",
+    responsibilities: [
+      "Created quick prototypes and proof of concepts for Man Bash",
+      "Participated in team meetings and provided input on deadlines, designs and enhancements.",
+      "Tested Game project to alleviate bugs and troubleshoot issues prior to going live.",
+    ],
+  },
+  {
+    title: "SEO Content Writer",
+    company: "Clifton Creative Web",
+    date: "February 2022- Present (Part Time)",
+    responsibilities: [
+      "Write 20+ high-quality web articles, blogs, and web copies for various industries, including dentists, real estate, and law firms.",
+      "Research and gather information from credible sources to ensure accuracy and relevance of content.",
+      "Collaborate with clients and team members to understand project requirements and deliver content that meets their needs.",
+    ],
+  },
 ];
 
 const Experience = () => {
@@ -55,7 +75,7 @@ const Experience = () => {
               pl-[2rem] pr-[0.25rem] snap-center"
             >
               <h4 className="text-[2.4rem]">{experience.title}</h4>
-              <h5 className="text-[2rem] mb-[.5rem]">{experience.company}</h5>
+              <h5 className="text-[1.8rem] mb-[.5rem]">{experience.company}</h5>
               <p>{experience.date}</p>
               <hr className="mb-1" />
               <ul className="list-disc">
