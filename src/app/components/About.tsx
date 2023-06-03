@@ -3,7 +3,7 @@ import aboutImg from "../../assets/Resume Pic.jpg";
 
 const About = () => {
   return (
-    <div className="text-center flex flex-col gap-[2rem]">
+    <div className="text-center h-full flex flex-col justify-center gap-[2rem]">
       <h3 className="text-[3rem]">ABOUT</h3>
       <div className="flex justify-center">
         <Image

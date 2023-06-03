@@ -7,7 +7,7 @@ import profile from "../../assets/profile-pic.jpg";
 
 const HeroSection = () => {
   return (
-    <div className="relative flex flex-col items-center z-50">
+    <div className="relative flex flex-col items-center justify-center z-50 h-full">
       <div className="relative mb-5">
         <AnimatedCubes />
         <Image

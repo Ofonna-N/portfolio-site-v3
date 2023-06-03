@@ -38,7 +38,7 @@ const skills: SkillGroup[] = [
 
 const Skills = () => {
   return (
-    <div className="px-[2rem]">
+    <div className="px-[2rem] h-full flex flex-col justify-center items-center">
       <h3 className="text-center text-[3rem]">SKILLS</h3>
       <ul className="">
         {skills.map((skillGroup) => (

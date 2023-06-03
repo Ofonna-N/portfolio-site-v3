@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Experience from "./components/Experience";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
@@ -24,7 +25,9 @@ export default function Home() {
       <Section className="" id="skills">
         <Skills />
       </Section>
-      <Section className="bg-green-800">{/* EXPERIENCE */}</Section>
+      <Section className="bg-green-800" id="experience">
+        <Experience />
+      </Section>
     </div>
   );
 }
