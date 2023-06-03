@@ -2,6 +2,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
+import Project from "./components/Project";
 import Skills from "./components/Skills";
 
 import Section from "./components/utility/Section";
@@ -21,7 +22,9 @@ export default function Home() {
       <Section className="" id="about">
         <About />
       </Section>
-      <Section className="bg-red-700">{/* PROJECTS */}</Section>
+      <Section className="" id="projects">
+        <Project />
+      </Section>
       <Section className="" id="skills">
         <Skills />
       </Section>
