@@ -14,6 +14,17 @@
     --primary-700: #404040;
     --primary-800: #262626;
     --primary-900: #0d0d0d;
+
+    --accent-50: #fff7dc;
+    --accent-100: #ffeaaf;
+    --accent-200: #fee07f;
+    --accent-300: #feda4d;
+    --accent-400: #fec01f;
+    --accent-500: #e49908;
+    --accent-600: #b26a01;
+    --accent-700: #7f4300;
+    --accent-800: #4c2300;
+    --accent-900: #1b0900;
   }
   html {
     font-size: 62.5%;
@@ -22,7 +33,7 @@
   }
 
   body {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   h1,
   h2,
