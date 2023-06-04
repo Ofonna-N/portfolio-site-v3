@@ -5,8 +5,8 @@ import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
-    <div className="h-full px-[2rem] flex flex-col items-center justify-center gap-[4rem]">
-      <h3 className="text-[5rem] text-center">PROJECTS</h3>
+    <div className="h-full px-[2rem] flex flex-col items-center justify-center gap-[1rem] md:gap-[4rem]">
+      <h3 className="text-[3rem] md:text-[5rem] text-center">PROJECTS</h3>
       <div className="relative w-full ">
         <ImageGallery>
           {projects.map((project) => (

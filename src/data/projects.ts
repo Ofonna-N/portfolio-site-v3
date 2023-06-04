@@ -16,7 +16,7 @@ const projects: ProjectType[] = [
     gitHubLink: "",
     liveDemoLink: "",
     description:
-      "I wanted to challenge myself by creating a clone of one of the most popular streaming services, Netflix. My Netflix clone project is a responsive web application that replicates the core features of the original Netflix user interface from the home page to the signup and login pages. The project demonstrates my skills in creating modular and scalable web applications, including movie and TV show listings, and user authentication.",
+      "My Netflix clone project is a responsive web application that replicates the core features of the original Netflix user interface from the home page to the signup and login pages.",
     techStack: [
       "ReactJS",
       "SCSS",
@@ -32,7 +32,7 @@ const projects: ProjectType[] = [
     gitHubLink: "",
     liveDemoLink: "",
     description:
-      "I wanted to challenge myself by creating a clone of one of the most popular streaming services, Netflix. My Netflix clone project is a responsive web application that replicates the core features of the original Netflix user interface from the home page to the signup and login pages. The project demonstrates my skills in creating modular and scalable web applications, including movie and TV show listings, and user authentication.",
+      "My Netflix clone project is a responsive web application that replicates the core features of the original Netflix user interface from the home page to the signup and login pages.",
     techStack: [
       "ReactJS",
       "SCSS",
@@ -48,7 +48,7 @@ const projects: ProjectType[] = [
     gitHubLink: "",
     liveDemoLink: "",
     description:
-      "I wanted to challenge myself by creating a clone of one of the most popular streaming services, Netflix. My Netflix clone project is a responsive web application that replicates the core features of the original Netflix user interface from the home page to the signup and login pages. The project demonstrates my skills in creating modular and scalable web applications, including movie and TV show listings, and user authentication.",
+      "My Netflix clone project is a responsive web application that replicates the core features of the original Netflix user interface from the home page to the signup and login pages.",
     techStack: [
       "ReactJS",
       "SCSS",
