@@ -6,8 +6,8 @@ import skills from "@/data/skills";
 const Skills = () => {
   return (
     <div className="px-[2rem] h-full flex flex-col justify-center items-center gap-[3rem]">
-      {/* <h3 className="text-center text-[5rem]">SKILLS</h3>
-      <ul className="w-full md:px-[3rem] h-[70%] overflow-y-auto bg-slate-500">
+      <h3 className="text-center text-[5rem]">SKILLS</h3>
+      <ul className="w-full md:px-[3rem] h-[70%] overflow-y-auto ">
         {skills.map((skillGroup) => (
           <li className="">
             <h3 className="text-[2.4rem]">{skillGroup.title}</h3>
@@ -21,7 +21,7 @@ const Skills = () => {
             </ul>
           </li>
         ))}
-      </ul> */}
+      </ul>
     </div>
   );
 };
