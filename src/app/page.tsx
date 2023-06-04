@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div
       className="relative mx-auto h-[100vh] overflow-x-hidden 
-    overflow-y-auto snap-y snap-mandatory transition-all"
+    overflow-y-auto snap-y snap-mandatory scroll-smooth transition-all"
     >
       <header className="sticky top-0 w-full z-[1000]">
         <NavBar />
