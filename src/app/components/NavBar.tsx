@@ -14,7 +14,7 @@ const NavBar = () => {
       <MaxWidth>
         <div className="flex flex-col gap-4 items-center justify-center px-[2rem]">
           <ul className="flex justify-center gap-[1rem] font-light relative">
-            {sectionLinks.map((link) => (
+            {sectionLinks.map((link, i) => (
               <li key={link.label} className="text-[1.4rem]">
                 <a
                   href={link.href}
