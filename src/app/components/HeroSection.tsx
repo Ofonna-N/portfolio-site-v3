@@ -33,24 +33,24 @@ const HeroSection = () => {
         transition={{ duration: 1, ease: "backOut" }}
         className="relative"
       >
-        <ul className="flex items-center justify-center gap-[2rem]">
+        <ul className="flex items-center justify-center gap-[2rem] text-[3rem]">
           <li>
-            <a href="">
+            <a href="" target="_blank">
               <FaLinkedinIn />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="" target="_blank">
               <FaGithubSquare />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="" target="_blank">
               <FaTwitterSquare />
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="" target="_blank">
               <FaGooglePlay />
             </a>
           </li>
