@@ -34,24 +34,35 @@ const HeroSection = () => {
         className="relative"
       >
         <ul className="flex items-center justify-center gap-[2rem] text-[3rem]">
-          <li>
-            <a href="" target="_blank">
+          <li className="hover:scale-125">
+            <a
+              href="https://www.linkedin.com/in/ofonna-nweze-2abbb9173/"
+              target="_blank"
+            >
               <FaLinkedinIn />
             </a>
           </li>
-          <li>
-            <a href="" target="_blank">
+          <li className="hover:scale-125">
+            <a href="https://github.com/Ofonna-N" target="_blank">
               <FaGithubSquare />
             </a>
           </li>
-          <li>
-            <a href="" target="_blank">
+          <li className="hover:scale-125">
+            <a href="https://twitter.com/_ofonna" target="_blank">
               <FaTwitterSquare />
             </a>
           </li>
-          <li>
-            <a href="" target="_blank">
+          <li className="hover:scale-125">
+            <a
+              href="https://play.google.com/store/apps/dev?id=7837179898460799569"
+              target="_blank"
+            >
               <FaGooglePlay />
+            </a>
+          </li>
+          <li className="hover:scale-125">
+            <a href="mailto:nwezeofonna@gmail.com" target="_blank">
+              <FaEnvelopeSquare />
             </a>
           </li>
         </ul>
