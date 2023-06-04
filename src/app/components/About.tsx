@@ -26,7 +26,7 @@ const About = () => {
           <h4 className="text-[2rem] font-bold md:text-left md:text-[3rem]">
             A little about me
           </h4>
-          <div className="text-center md:text-left lg:text-[1.8rem]">
+          <div className="text-center md:text-left px-[2rem] lg:text-[1.8rem]">
             I am dedicated to crafting exceptional user experiences. With
             expertise in React and Next.js, I specialize in creating responsive
             and interactive web applications. By merging my technical skills
