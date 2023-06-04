@@ -31,6 +31,15 @@ const skills: SkillGroup[] = [
       { type: "express" },
     ],
   },
+  {
+    title: "Toos & Technologies",
+    skillSets: [
+      { type: "firebase" },
+      { type: "mongodb" },
+      { type: "hookform", label: "hookform" },
+      { type: "git" },
+    ],
+  },
 ];
 
 export default skills;

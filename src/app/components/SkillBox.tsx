@@ -9,9 +9,15 @@ import {
   SiReact,
   SiNextdotjs,
   SiExpress,
+  SiMongodb,
+  SiWebpack,
+  SiPrisma,
+  SiReacthookform,
 } from "react-icons/si";
+import { BsGit } from "react-icons/bs";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
+import { SiFirebase } from "react-icons/si";
 
 const iconMap: { [key: string]: JSX.Element } = {
   javascript: <SiJavascript />,
@@ -26,6 +32,12 @@ const iconMap: { [key: string]: JSX.Element } = {
   nextjs: <SiNextdotjs />,
   express: <SiExpress />,
   nodejs: <FaNodeJs />,
+  firebase: <SiFirebase />,
+  mongodb: <SiMongodb />,
+  webpack: <SiWebpack />,
+  prisma: <SiPrisma />,
+  hookform: <SiReacthookform />,
+  git: <BsGit />,
 };
 
 type Props = {
