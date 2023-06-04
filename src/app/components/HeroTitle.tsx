@@ -1,12 +1,12 @@
 "use client";
 import Typewriter from "typewriter-effect";
 
-const sectionLinks = [
-  { label: "ABOUT", href: "#about" },
-  { label: "PROJECTS", href: "#projects" },
-  { label: "SKILLS", href: "#skills" },
-  { label: "EXPERIENCE", href: "#experience" },
-];
+// const sectionLinks = [
+//   { label: "ABOUT", href: "#about" },
+//   { label: "PROJECTS", href: "#projects" },
+//   { label: "SKILLS", href: "#skills" },
+//   { label: "EXPERIENCE", href: "#experience" },
+// ];
 
 const HeroTitle = () => {
   return (
@@ -24,7 +24,7 @@ const HeroTitle = () => {
       <h3 className="max-w-[50rem] px-[2rem] text-[1.3rem] mb-[4rem] text-white/60">
         Passionate about creating exceptional user experiences.
       </h3>
-      <ul className="flex justify-center gap-[2rem] font-light relative">
+      {/* <ul className="flex justify-center gap-[2rem] font-light relative">
         {sectionLinks.map((link) => (
           <li key={link.label} className="text-[1.4rem]">
             <a
@@ -35,7 +35,7 @@ const HeroTitle = () => {
             </a>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 };

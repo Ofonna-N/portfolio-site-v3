@@ -4,6 +4,13 @@ import MotionDiv from "./utility/MotionDiv";
 import AnimatedCubes from "./AnimatedCubes";
 import Image from "next/image";
 import profile from "../../assets/profile-pic.jpg";
+import {
+  FaLinkedinIn,
+  FaTwitterSquare,
+  FaGithubSquare,
+  FaGooglePlay,
+  FaEnvelopeSquare,
+} from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -19,6 +26,37 @@ const HeroSection = () => {
         />
       </div>
       <HeroTitle />
+      {/* Social Icons */}
+      <MotionDiv
+        initial={{ x: -500, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1, ease: "backOut" }}
+        className="relative"
+      >
+        <ul className="flex items-center justify-center gap-[2rem]">
+          <li>
+            <a href="">
+              <FaLinkedinIn />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <FaGithubSquare />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <FaTwitterSquare />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <FaGooglePlay />
+            </a>
+          </li>
+        </ul>
+      </MotionDiv>
+      {/* Get in touch text */}
     </div>
   );
 };
