@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  compilerOptions: {},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
