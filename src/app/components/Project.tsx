@@ -9,8 +9,8 @@ const Project = () => {
       <h3 className="text-[3rem] md:text-[5rem] text-center">PROJECTS</h3>
       <div className="relative w-full ">
         <ImageGallery>
-          {projects.map((project) => (
-            <GalleryItem className="w-full h-fit md:w-1/2">
+          {projects.map((project, i) => (
+            <GalleryItem className="w-full h-fit md:w-1/2" key={i}>
               <ProjectCard project={project} />
             </GalleryItem>
           ))}
