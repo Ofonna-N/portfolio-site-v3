@@ -1,6 +1,7 @@
-import { ProjectType } from "@/data/projects";
+// import { ProjectType } from "@/data/projects";
 import React from "react";
 import Image from "next/image";
+import ProjectType from "../customTypes/ProjectType";
 
 type Props = {
   project: ProjectType;
@@ -14,28 +15,36 @@ const ProjectCard = ({ project }: Props) => {
           src={project.imgSrc}
           width={1024}
           height={1024}
-          alt=""
+          alt={project.alt}
           className="w-full object-cover"
         />
       </div>
-      <h3 className="text-[3rem]">{project.title}</h3>
+      <h3 className="text-[3rem]">{project.name}</h3>
       <div className="flex gap-6 mb-4">
-        <a href="http://" className="underline text-yellow-500">
+        <a
+          href={project.demolink}
+          target="_blank"
+          className="underline text-yellow-500"
+        >
           Live Demo
         </a>
-        <a href="http://" className="underline text-yellow-500">
+        <a
+          href={project.githublink}
+          target="_blank"
+          className="underline text-yellow-500"
+        >
           Github
         </a>
       </div>
       <div>
         <p className="mb-4">{project.description}</p>
         <div>
-          <h4>Tech Stack</h4>
+          <h4 className="text-primary-600 font-bold">Tech Stack</h4>
           <hr className="border-primary-200/20 mb-[0.5rem]" />
           <ul className="flex flex-wrap gap-2">
-            {project.techStack.map((techStack) => (
+            {project.techstack.map((techStack) => (
               <li className="">
-                <span className="bg-primary-900/90 px-[5px] rounded-md">
+                <span className="bg-primary-900/90 px-[5px] rounded-md text-yellow-800">
                   {techStack}
                 </span>
               </li>
