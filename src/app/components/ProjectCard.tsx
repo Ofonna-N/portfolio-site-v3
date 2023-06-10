@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import ProjectType from "../customTypes/ProjectType";
+import ExpandableText from "./utility/expandable-text/ExpandableText";
 
 type Props = {
   project: ProjectType;
@@ -9,7 +10,7 @@ type Props = {
 
 const ProjectCard = ({ project }: Props) => {
   return (
-    <div className="bg-primary-800/30 p-[2rem] rounded-xl">
+    <div className="bg-primary-800/30 p-[2rem] rounded-xl transition-all">
       <div className="w-full aspect-video flex justify-center">
         <Image
           src={project.imgSrc}
@@ -37,7 +38,8 @@ const ProjectCard = ({ project }: Props) => {
         </a>
       </div>
       <div>
-        <p className="mb-4">{project.description}</p>
+        {/* <p className="mb-4">{project.description}</p> */}
+        <ExpandableText text={project.description} limit={180} />
         {project.techstack && (
           <div>
             <h4 className="text-primary-600 font-bold">Tech Stack</h4>
