@@ -1,4 +1,4 @@
-export default [
+const sectionLinks = [
   { label: "HOME", href: "#hero" },
   { label: "ABOUT", href: "#about" },
   { label: "WEB PROJECTS", href: "#projects" },
@@ -6,3 +6,5 @@ export default [
   { label: "SKILLS", href: "#skills" },
   { label: "EXPERIENCE", href: "#experience" },
 ];
+
+export default sectionLinks;

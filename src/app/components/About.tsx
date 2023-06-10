@@ -57,10 +57,10 @@ const About = () => {
               Alongside my frontend proficiency, I have a keen interest in game
               development, utilizing my knowledge of C# and Unity to bring
               virtual worlds to life. Continuously staying ahead in this dynamic
-              field, I explore emerging technologies and techniques. When I'm
-              not coding, you can find me enjoying a game of soccer or hitting
-              the gym. Let's connect and collaborate on innovative projects that
-              push the boundaries of frontend development.
+              field, I explore emerging technologies and techniques. When
+              I&apos;m not coding, you can find me enjoying a game of soccer or
+              hitting the gym. Let&apos;s connect and collaborate on innovative
+              projects that push the boundaries of frontend development.
             </span>
           </div>
         </MotionDiv>
