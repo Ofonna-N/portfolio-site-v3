@@ -1,9 +1,11 @@
-export type Experience = {
-  title: string;
-  company: string;
-  date: string;
-  responsibilities: string[];
-};
+// export type Experience = {
+//   title: string;
+//   company: string;
+//   date: string;
+//   responsibilities: string[];
+// };
+
+import { Experience } from "@/app/customTypes/ExperienceType";
 
 const experiences: Experience[] = [
   {
@@ -24,7 +26,7 @@ const experiences: Experience[] = [
     responsibilities: [
       "Created quick prototypes and proof of concepts for Super store Rush and Crow Step",
       "Met strict deadlines for on-schedule game delivery by leveraging time management, team leadership and task prioritization skills.",
-      "Worked closely with team members to deliver project requirements, develop solutions and",
+      "Worked closely with team members to deliver project requirements, develop solutions and meet deadlines.",
     ],
   },
   {

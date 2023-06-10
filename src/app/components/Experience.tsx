@@ -1,8 +1,11 @@
-import experiences from "@/data/experiences";
+// import experiences from "@/data/experiences";
 import ImageGallery from "./utility/image-gallery/ImageGallery";
 import GalleryItem from "./utility/image-gallery/GalleryItem";
+import GetExperiences from "../functions/GetExperiences";
 
-const Experience = () => {
+const Experience = async () => {
+  const experiences = await GetExperiences();
+
   return (
     <div className="h-full gap-[7rem] px-[1rem] flex flex-col justify-center ">
       <h3 className="text-[6rem] text-center">EXPERIENCE</h3>
