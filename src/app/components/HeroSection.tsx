@@ -28,9 +28,12 @@ const HeroSection = () => {
       <HeroTitle />
       {/* Social Icons */}
       <MotionDiv
-        initial={{ x: -500, opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1, ease: "backOut" }}
+        initial={{ x: -200, opacity: 0 }}
+        whileInView={{
+          x: 0,
+          opacity: 1,
+          transition: { duration: 1, ease: "backOut" },
+        }}
         className="relative"
       >
         <ul className="flex items-center justify-center gap-[2rem] text-[3rem]">

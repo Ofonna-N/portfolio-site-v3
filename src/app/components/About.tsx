@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import aboutImg from "../../assets/Resume Pic.jpg";
+import MotionDiv from "./utility/MotionDiv";
 
 const About = () => {
   return (
@@ -9,7 +11,16 @@ const About = () => {
         className="flex flex-col justify-center items-center 
       md:flex-row md:gap-[2rem] md:px-[3rem]"
       >
-        <div
+        <MotionDiv
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            transition: {
+              duration: 0.45,
+            },
+          }}
+          // viewport={{ once: true }}
           className="w-[15rem] overflow-hidden rounded-full flex-grow aspect-square 
         md:rounded-none md:aspect-auto md:w-[30%]"
         >
@@ -20,13 +31,23 @@ const About = () => {
             alt=""
             className="w-full object-cover"
           />
-        </div>
+        </MotionDiv>
         <div className="hidden bg-white w-[2px] h-[50%] md:block"></div>
-        <div className="md:w-[60%]">
+        <MotionDiv
+          className="md:w-[60%]"
+          initial={{ x: 300, opacity: 0 }}
+          whileInView={{
+            x: 0,
+            opacity: 1,
+            transition: {
+              duration: 0.75,
+            },
+          }}
+        >
           <h4 className="text-[2rem] font-bold md:text-left md:text-[3rem]">
             A little about me
           </h4>
-          <div className="text-center md:text-left lg:text-[1.8rem]">
+          <div className="text-center px-6  md:px-0 md:text-left lg:text-[1.8rem]">
             I am dedicated to crafting exceptional user experiences. With
             expertise in React and Next.js, I specialize in creating responsive
             and interactive web applications. By merging my technical skills
@@ -42,7 +63,7 @@ const About = () => {
               push the boundaries of frontend development.
             </span>
           </div>
-        </div>
+        </MotionDiv>
       </div>
     </div>
   );

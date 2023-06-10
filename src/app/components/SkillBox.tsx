@@ -18,6 +18,7 @@ import { BsGit } from "react-icons/bs";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa";
 import { SiFirebase } from "react-icons/si";
+import MotionDiv from "./utility/MotionDiv";
 
 const iconMap: { [key: string]: JSX.Element } = {
   javascript: <SiJavascript />,
@@ -47,13 +48,20 @@ type Props = {
 
 const SkillBox = ({ tag, label }: Props) => {
   return (
-    <div
+    <MotionDiv
+      initial={{ scale: 0.75 }}
+      whileInView={{
+        scale: 1,
+        transition: {
+          duration: 0.35,
+        },
+      }}
       className="flex flex-col gap-2 justify-center p-[1rem] 
     items-center rounded-md bg-primary-800/70"
     >
       <span className="text-[4rem]  text-primary-200">{iconMap[tag]}</span>
       <span className="capitalize text-primary-200">{label || tag}</span>
-    </div>
+    </MotionDiv>
   );
 };
 
