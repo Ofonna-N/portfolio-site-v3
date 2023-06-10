@@ -5,7 +5,7 @@ type ProjectType = {
   demolink: string;
   githublink: string;
   description: string;
-  techstack: string[];
+  techstack?: string[];
 };
 
 export default ProjectType;

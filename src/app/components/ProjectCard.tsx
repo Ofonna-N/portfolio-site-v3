@@ -38,19 +38,21 @@ const ProjectCard = ({ project }: Props) => {
       </div>
       <div>
         <p className="mb-4">{project.description}</p>
-        <div>
-          <h4 className="text-primary-600 font-bold">Tech Stack</h4>
-          <hr className="border-primary-200/20 mb-[0.5rem]" />
-          <ul className="flex flex-wrap gap-2">
-            {project.techstack.map((techStack) => (
-              <li className="">
-                <span className="bg-primary-900/90 px-[5px] rounded-md text-yellow-800">
-                  {techStack}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {project.techstack && (
+          <div>
+            <h4 className="text-primary-600 font-bold">Tech Stack</h4>
+            <hr className="border-primary-200/20 mb-[0.5rem]" />
+            <ul className="flex flex-wrap gap-2">
+              {project.techstack?.map((techStack) => (
+                <li className="">
+                  <span className="bg-primary-900/90 px-[5px] rounded-md text-yellow-800">
+                    {techStack}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );

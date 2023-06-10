@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Experience from "./components/Experience";
+import GameProjects from "./components/GameProjects";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
 import Project from "./components/Project";
@@ -24,6 +25,9 @@ export default function Home() {
       </Section>
       <Section className="" id="projects">
         <Project />
+      </Section>
+      <Section className="" id="gameProjects">
+        <GameProjects />
       </Section>
       <Section className="" id="skills">
         <Skills />

@@ -7,7 +7,7 @@ const NavBar = () => {
     <nav className="py-[2rem] w-full z-10">
       <MaxWidth>
         <div className="flex flex-col gap-4 items-center justify-center px-[2rem]">
-          <ul className="flex justify-center gap-[1rem] font-light relative md:gap-[2rem]">
+          <ul className="flex flex-wrap justify-center gap-[1rem] font-light relative md:gap-[2rem]">
             {sectionLinks.map((link) => (
               <li
                 key={link.label}

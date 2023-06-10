@@ -1,15 +1,14 @@
-import ImageGallery from "./utility/image-gallery/ImageGallery";
-import GalleryItem from "./utility/image-gallery/GalleryItem";
-// import projects from "@/data/projects";
+import GetGameProjects from "../functions/GetGameProjects";
 import ProjectCard from "./ProjectCard";
-import GetProjects from "../functions/GetProjects";
+import GalleryItem from "./utility/image-gallery/GalleryItem";
+import ImageGallery from "./utility/image-gallery/ImageGallery";
 
-const Project = async () => {
-  const projects = await GetProjects();
+const GameProjects = async () => {
+  const projects = await GetGameProjects();
 
   return (
     <div className="h-full px-[2rem] flex flex-col items-center justify-center gap-[1rem] md:gap-[4rem]">
-      <h3 className="text-[3rem] md:text-[5rem] text-center">WEB PROJECTS</h3>
+      <h3 className="text-[3rem] md:text-[5rem] text-center">GAME PROJECTS</h3>
       <div className="relative w-full ">
         <ImageGallery>
           {projects.map((project, i) => (
@@ -23,4 +22,4 @@ const Project = async () => {
   );
 };
 
-export default Project;
+export default GameProjects;
