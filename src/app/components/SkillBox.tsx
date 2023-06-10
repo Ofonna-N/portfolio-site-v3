@@ -41,18 +41,18 @@ const iconMap: { [key: string]: JSX.Element } = {
 };
 
 type Props = {
-  type: string;
+  tag: string;
   label?: string;
 };
 
-const SkillBox = ({ type, label }: Props) => {
+const SkillBox = ({ tag, label }: Props) => {
   return (
     <div
       className="flex flex-col gap-2 justify-center p-[1rem] 
     items-center rounded-md bg-primary-800/70"
     >
-      <span className="text-[4rem]  text-primary-200">{iconMap[type]}</span>
-      <span className="capitalize text-primary-200">{label || type}</span>
+      <span className="text-[4rem]  text-primary-200">{iconMap[tag]}</span>
+      <span className="capitalize text-primary-200">{label || tag}</span>
     </div>
   );
 };

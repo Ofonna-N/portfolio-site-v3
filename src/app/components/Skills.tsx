@@ -15,7 +15,7 @@ const Skills = () => {
             <ul className="grid grid-cols-4  gap-3 mb-[2rem] md:grid-cols-5 lg:grid-cols-7">
               {skillGroup.skillSets.map((skill) => (
                 <li className="">
-                  <SkillBox type={skill.type} label={skill.label} />
+                  <SkillBox tag={skill.tag} label={skill.label} />
                 </li>
               ))}
             </ul>

@@ -5,39 +5,39 @@ export type SkillGroup = {
 
 type SkillSet = {
   label?: string;
-  type: string;
+  tag: string;
 };
 
 const skills: SkillGroup[] = [
   {
     title: "Languages",
     skillSets: [
-      { type: "html" },
-      { type: "javascript" },
-      { type: "css" },
-      { type: "typescript" },
-      { type: "scss" },
-      { type: "tailwindcss" },
-      { type: "csharp", label: "C#" },
+      { tag: "html" },
+      { tag: "javascript" },
+      { tag: "css" },
+      { tag: "typescript" },
+      { tag: "scss" },
+      { tag: "tailwindcss" },
+      { tag: "csharp", label: "C#" },
     ],
   },
   {
     title: "Frameworks & Engines",
     skillSets: [
-      { type: "react" },
-      { type: "nextjs" },
-      { type: "unity" },
-      { type: "nodejs" },
-      { type: "express" },
+      { tag: "react" },
+      { tag: "nextjs" },
+      { tag: "unity" },
+      { tag: "nodejs" },
+      { tag: "express" },
     ],
   },
   {
     title: "Toos & Technologies",
     skillSets: [
-      { type: "firebase" },
-      { type: "mongodb" },
-      { type: "hookform", label: "hookform" },
-      { type: "git" },
+      { tag: "firebase" },
+      { tag: "mongodb" },
+      { tag: "hookform", label: "hookform" },
+      { tag: "git" },
     ],
   },
 ];
