@@ -7,9 +7,9 @@ import GetSkillGroups from "../functions/GetSkillGroups";
 const Skills = async () => {
   const skillGroups = await GetSkillGroups();
   return (
-    <div className="px-[2rem] h-full flex flex-col justify-center items-center gap-[3rem]">
-      <h3 className="text-center text-[5rem]">SKILLS</h3>
-      <ul className="w-full md:px-[3rem] h-[70%] overflow-y-auto ">
+    <>
+      <h3 className="text-center text-[3rem] md:text-[5rem]">SKILLS</h3>
+      <ul className="w-full md:px-[3rem] overflow-y-auto">
         {skillGroups.map((skillGroup, groupIndex) => (
           <li className="" key={groupIndex}>
             <h3 className="text-[2.4rem]">{skillGroup.title}</h3>
@@ -24,7 +24,7 @@ const Skills = async () => {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 };
 

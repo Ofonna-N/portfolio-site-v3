@@ -5,7 +5,7 @@ import MotionDiv from "./utility/MotionDiv";
 
 const About = () => {
   return (
-    <div className="text-center h-full flex flex-col items-center justify-center gap-[4rem]">
+    <div className="text-center flex flex-col items-center justify-center gap-[2rem]">
       <h3 className="text-[4rem]">ABOUT</h3>
       <div
         className="flex flex-col justify-center items-center 
@@ -21,7 +21,7 @@ const About = () => {
             },
           }}
           // viewport={{ once: true }}
-          className="w-[15rem] overflow-hidden rounded-full flex-grow aspect-square 
+          className="w-[15rem] mb-5 overflow-hidden rounded-full flex-grow aspect-square 
         md:rounded-none md:aspect-auto md:w-[30%]"
         >
           <Image

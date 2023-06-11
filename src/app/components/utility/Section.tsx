@@ -15,7 +15,11 @@ const Section = ({ className, children, id }: Props) => {
         " mx-auto relative h-screen flex items-center snap-center overflow-y-auto"
       }
     >
-      <MaxWidth>{children}</MaxWidth>
+      <MaxWidth>
+        <div className="h-full px-[2rem] pt-[10rem] md:gap-[2rem] md:flex md:flex-col md:items-center md:justify-center md:pt-0">
+          {children}
+        </div>
+      </MaxWidth>
     </section>
   );
 };
