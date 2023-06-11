@@ -8,7 +8,9 @@ const Skills = async () => {
   const skillGroups = await GetSkillGroups();
   return (
     <>
-      <h3 className="text-center text-[3rem] md:text-[5rem]">SKILLS</h3>
+      <h3 className="text-center text-[3rem] md:text-[5rem] font-bold">
+        SKILLS
+      </h3>
       <ul className="w-full md:px-[3rem] overflow-y-auto">
         {skillGroups.map((skillGroup, groupIndex) => (
           <li className="" key={groupIndex}>

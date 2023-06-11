@@ -9,7 +9,9 @@ const GameProjects = async () => {
 
   return (
     <>
-      <h3 className="text-[3rem] md:text-[5rem] text-center">GAME PROJECTS</h3>
+      <h3 className="text-[3rem] md:text-[5rem] text-center font-bold">
+        GAME PROJECTS
+      </h3>
       <MotionDiv
         className="relative w-full"
         initial={{ scale: 0.95, opacity: 0 }}

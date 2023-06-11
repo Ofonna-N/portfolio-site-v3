@@ -6,7 +6,7 @@ import MotionDiv from "./utility/MotionDiv";
 const About = () => {
   return (
     <div className="text-center flex flex-col items-center justify-center gap-[2rem]">
-      <h3 className="text-[4rem]">ABOUT</h3>
+      <h3 className="text-[4rem] font-bold">ABOUT</h3>
       <div
         className="flex flex-col justify-center items-center 
       md:flex-row md:gap-[2rem] md:px-[3rem]"

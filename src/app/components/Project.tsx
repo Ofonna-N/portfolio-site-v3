@@ -10,7 +10,9 @@ const Project = async () => {
 
   return (
     <>
-      <h3 className="text-[3rem] md:text-[5rem] text-center">WEB PROJECTS</h3>
+      <h3 className="text-[3rem] md:text-[5rem] text-center font-bold">
+        WEB PROJECTS
+      </h3>
       <MotionDiv
         className="relative w-full"
         initial={{ opacity: 0, scale: 0.95 }}
