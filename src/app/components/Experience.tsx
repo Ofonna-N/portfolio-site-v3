@@ -7,7 +7,7 @@ const Experience = async () => {
   const experiences = await GetExperiences();
 
   return (
-    <div className="h-full px-4 pt-[10rem] md:gap-[4rem] md:flex md:flex-col md:items-center md:justify-center md:pt-0">
+    <>
       <h3 className="text-[3rem] md:text-[6rem] text-center font-bold">
         EXPERIENCE
       </h3>
@@ -34,7 +34,7 @@ const Experience = async () => {
           ))}
         </ImageGallery>
       </div>
-    </div>
+    </>
   );
 };
 
